@@ -1,0 +1,24 @@
+É um tipo de associação que permite que uma classe herde todos os dados de comportamento de outra.
+
+* Vantagens
+
+- Reuso
+- Polimorfismo
+
+Sintaxe: class A extends B
+
+Class account (){
+
+- protected Integer number; <-------
+- protected String holder; <-------
+- protected Double balance; <-------
+////
+metodos
+///
++ withdraw(amount: Double) : void <-------
++ deposit(amount: Double) : void  <-------
+
+BussinessAccount extends Account(){  // está classe irá herdar todos os atributos e metodos que estão apontados por uma seta na Classe "Account"
+
+
+}
